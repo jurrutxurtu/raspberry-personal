@@ -1,0 +1,4 @@
+Raspberry Pi OS
+------------
+- Download Raspberry Pi OS (Raspbian) ZIP https://www.raspberrypi.org/downloads/raspbian/
+- Burn it to SD Card using Raspberry PI Imager https://downloads.raspberrypi.org/imager/imager.exe
