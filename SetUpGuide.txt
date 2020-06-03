@@ -9,9 +9,14 @@ sudo apt-get install lvm2
 curl -sSL https://get.docker.com | sh
 sudo docker --version 
 
-#Python pip & Docker Compose setup
-sudo apt-get -y install python-pip && \
+#Python pip3 & Docker Compose setup
+sudo apt-get -y install python3-pip && \
 sudo apt-get install libffi-dev
-sudo pip install docker-compose
+sudo pip3 install docker-compose
+docker-compose --version
 
+#Allow remote SSH access
+My IP: 92.56.236.245
+Acceso remoto router: admin/passwifi*  puerto 10011  URL con IPV6 [2a01:c50f:edc6:3900:66cc:22ff:fe9b:d4f2]:10011
+Setup port forwarding for port 22 to raspberry Pi port 22 -> https://medium.com/@jimip6c12/raspberry-pi-dummy-tutorial-on-port-forwarding-and-ssh-to-pi-remotely-d4fbc2ed3bdf
 
